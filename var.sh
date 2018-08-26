@@ -5,7 +5,10 @@ set -e
 # Assign default variables if not set
 PLUGIN_VAULT=${PLUGIN_VAULT}
 DRONE_SECRETS=${DRONE_SECRETS}
+PLUGIN_SECRETS=${PLUGIN_SECRETS}
 
 echo ${PLUGIN_VAULT}
 echo "------------"
 echo ${DRONE_SECRETS}
+echo "-------------"
+echo ${PLUGIN_SECRETS}
