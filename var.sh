@@ -12,3 +12,5 @@ echo "------------"
 echo ${DRONE_SECRETS}
 echo "-------------"
 echo ${PLUGIN_SECRETS}
+echo "-------------"
+echo ${VALUES}
