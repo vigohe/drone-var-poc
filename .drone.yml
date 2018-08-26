@@ -5,4 +5,5 @@ pipeline:
         - docker_username
         - docker_password
     repo: vigohe/drone-var-poc
-    auto_tag: true
+    tags: 
+      - b-${DRONE_BUILD_NUMBER}
