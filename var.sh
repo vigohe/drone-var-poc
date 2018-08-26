@@ -6,7 +6,7 @@ set -e
 PLUGIN_VAULT=${PLUGIN_VAULT}
 DRONE_SECRETS=${DRONE_SECRETS}
 PLUGIN_SECRETS=${PLUGIN_SECRETS}
-VALUES=${VALUES}
+PLUGIN_VALUES=${VALUES}
 
 echo ${PLUGIN_VAULT}
 echo "------------"
@@ -14,4 +14,4 @@ echo ${DRONE_SECRETS}
 echo "-------------"
 echo ${PLUGIN_SECRETS}
 echo "-------------"
-echo ${VALUES}
+echo ${PLUGIN_VALUES}
