@@ -4,11 +4,11 @@ set -e
 
 # Assign default variables if not set
 PLUGIN_VAULT=${PLUGIN_VAULT}
-USERNAME=${USERNAME}
+USUARIO=${USERNAME}
 PASSWORD=${PASSWORD}
 
 echo ${PLUGIN_VAULT}
-echo ${USERNAME}
+echo ${USUARIO}
 echo ${PASSWORD}
 echo "----------------"
 env
