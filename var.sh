@@ -15,3 +15,4 @@ echo "-------------"
 echo ${PLUGIN_SECRETS}
 echo "PLUGIN_BUILD_ARGS_FROM_ENV"
 echo ${PLUGIN_BUILD_ARGS_FROM_ENV}
+env
